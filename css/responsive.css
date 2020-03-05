@@ -1,0 +1,119 @@
+@media only screen and (min-width:320px) and (max-width: 767px){
+	.header{
+		display: none;
+	}
+	.box-pushy{
+		display: block;
+	}
+	.content-wrap-left{
+		display: none;
+	}
+	.box-pushy .content-wrap-left{
+		display: block;
+		padding: 15px;
+	}
+	.box-pushy .btn{
+		margin-right: 10px;
+	}
+	.box-pushy .box-camera{
+		padding: 30px;
+	}
+
+
+	.header-content-info{
+		display: block;
+	}
+	
+	.report-info-left{
+		display: none;
+	}
+
+	.box-content-info-right{
+		margin-top: 20px;
+    	width: 100%;
+	}
+
+	.box-calendar{
+		margin-bottom: 20px;
+	}
+
+	.nav-pills li{
+		width: 49%;
+	}
+	.statistical-tab {
+		margin-right: 0;
+	}
+	.box-chart-bar{
+		padding: 10px;
+	}
+	.box-chart-pie{
+		padding: 10px;
+		display: block;
+	}
+
+	.chart-pie-ticket{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.chart-pie-list{
+		width: 100%;
+	}
+	.box-table-list-birthday, .box-table-list-notification-driver, .box-table-list-notification-employee{
+		overflow-x: auto;
+	}
+
+	.box-table-list-birthday table, .box-table-list-notification-driver table, .box-table-list-notification-employee table{
+		width: 250%;
+	}
+
+	.news-company{
+		float: none;
+	    width: 100%;
+	    padding: 0;
+	    margin-bottom: 20px;
+	}
+
+	.news-driver{
+		float: none;
+	    width: 100%;
+	    padding: 0;
+	}
+
+
+}
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+.header{
+		display: none;
+	}
+	.box-pushy{
+		display: block;
+	}
+	.content-wrap-left{
+		display: none;
+	}
+	.box-pushy .content-wrap-left{
+		display: block;
+		padding: 15px;
+	}
+	.box-pushy .btn{
+		margin-right: 10px;
+	}
+	.box-pushy .box-camera{
+		padding: 30px;
+	}
+
+	.box-table-list-birthday, .box-table-list-notification-driver, .box-table-list-notification-employee{
+		overflow-x: auto;
+	}
+
+	.box-content-info-right{
+		width: 45%;
+	}
+
+}
+@media only screen and (min-width : 993px) and (max-width : 1300px){
+	.box-content-info-right{
+		width: 45%;
+	}
+}

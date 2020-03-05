@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SanVe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="plugins/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="plugins/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="plugins/animate.css">
+    <link rel="stylesheet" href="plugins/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owlcarousel/assets/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600,700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="plugins/pushy.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <script type="text/javascript" src="plugins/jquery.js"></script>
+    <script src="plugins/owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+<!----------------------------nav-respons----------------------------------------------->
+<!-- Pushy Menu -->
+<div class="box-pushy">
+<nav class="pushy pushy-left" data-menu-btn-class =".btn-menu-header">
+    <div class="pushy-content">
+        <div class="content-wrap-left">
+            <div class="box-camera">
+                <a href="">
+                    <img src="img/logo2.png">
+                    <i class="fas fa-camera"></i>
+                </a>
+            </div>
+            <div class="title-content-left">
+                <h6>Sàn vé An Vui</h6>
+            </div>
+            <div class="box-info-content-left">
+                <div class="item-info-content-left">
+                    <a href="">Thông tin chung</a>
+                    <a href="">Cài đặt thanh toán</a>
+                    <a href="">Cài đặt nguồn vé</a>
+                </div>
+                <div class="item-info-content-left">
+                    <a href="">Quản lý sàn vé</a>
+                    <div class="item-info-content-chil">
+                        <a href="">Tạo User bán vé</a>
+                        <a href="">Báo cáo doanh thu</a>
+                        <a href="">Báo cáo Công nợ bán vé</a>
+                        <a href="">Nạp tiền vào Ví</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sell-btn">
+                <a href="">Bán vé</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="site-overlay"></div>
+<div class="btn-drop">
+    <div class="header-wrap">
+        <button class="btn-menu-header"><i class="fas fa-bars"></i></button>
+        <div class="header-wrap-left">
+            <a href=""><img src="img/logo.png"></a>
+        </div>
+        <div class="header-wrap-right">
+            <div class="info-header-right">
+                <div class="dropdown">
+                  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                    <i class="fas fa-angle-down"></i>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <div class="box-login">
+                        <h6>Xin chào, Linh</h6>
+                        <img src="img/pic.png">
+                    </div>
+                    <a class="dropdown-item" href="#"><i class="fas fa-money-check-alt"></i><h5>Số dư: 50.000.000</h5></a>
+                    <a class="dropdown-item" href="#"><i class="far fa-bell"></i><h5>Thông báo (<span>4</span>) </h5></a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-power-off"></i><h5>Đăng xuất</h5></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<!---------------------------------------------------------------------------------------->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="header-wrap">
+                        <div class="header-wrap-left">
+                            <a href=""><img src="img/logo.png"></a>
+                        </div>
+                        <div class="header-wrap-right">
+                            <div class="info-header-left">
+                                <h6>Xin chào, Linh</h6>
+                                <h5>Số dư: <span>50,000,000 VN</span></h5>
+                            </div>
+                            <div class="info-header-right">
+                                <div class="dropdown">
+                                  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                    <img src="img/pic.png">
+                                    <i class="fas fa-angle-down"></i>
+                                  </button>
+                                  <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-money-check-alt"></i><h5>Số dư: 50.000.000</h5></a>
+                                    <a class="dropdown-item" href="#"><i class="far fa-bell"></i><h5>Thông báo (<span>4</span>) </h5></a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-power-off"></i><h5>Đăng xuất</h5></a>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="title-content">
+                        <h6>Quản trị sàn vé</h6>
+                    </div>
+                    <div class="content-wrap">
+                        <div class="content-wrap-left">
+                            <div class="box-camera">
+                                <a href="">
+                                    <img src="img/logo2.png">
+                                    <i class="fas fa-camera"></i>
+                                </a>
+                            </div>
+                            <div class="title-content-left">
+                                <h6>Sàn vé An Vui</h6>
+                            </div>
+                            <div class="box-info-content-left">
+                                <div class="item-info-content-left">
+                                    <a href="">Thông tin chung</a>
+                                    <a href="">Cài đặt thanh toán</a>
+                                    <a href="">Cài đặt nguồn vé</a>
+                                </div>
+                                <div class="item-info-content-left">
+                                    <a href="">Quản lý sàn vé</a>
+                                    <div class="item-info-content-chil">
+                                        <a href="">Tạo User bán vé</a>
+                                        <a href="">Báo cáo doanh thu</a>
+                                        <a href="">Báo cáo Công nợ bán vé</a>
+                                        <a href="">Nạp tiền vào Ví</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sell-btn">
+                                <a href="">Bán vé</a>
+                            </div>
+                        </div>
+                        <div class="content-wrap-right">
+                            <div class="header-content-info">
+                                <div class="box-content-info-left">
+                                    <h5>Bán vé - Dashboard</h5>
+                                    <div class="report-info-left">
+                                        <h6>Báo cáo doanh thu</h6>
+                                        <h5>Tháng 9 năm 2019</h5>
+                                        <span>Cập nhật lúc: 00:32 05-09-2019</span>
+                                    </div>
+                                </div>
+                                <div class="box-content-info-right">
+                                    <div class="box-calendar">
+                                        <h5>27/09/2019</h5>
+                                        <a href="" class="item-calendar"><i class="fas fa-calendar-alt"></i></a>
+                                        <a href="" class="item-bell"><i class="far fa-bell"></i></a>
+                                        <span>99</span>
+                                    </div>
+                                    <div class="box-statistical">
+                                        <div class="item-statistical-ticket">
+                                            <h6>Tổng số vé</h6>
+                                            <h5>90 vé</h5>
+                                        </div>
+                                        <div class="item-statistical-money">
+                                            <h6>Tổng số tiền</h6>
+                                            <h5>13,569,000 vnđ</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="between-content-info">
+                                <ul class="nav nav-pills">
+                                  <li class="active statistical-tab"><a data-toggle="pill" href="#menu1">Thống kê theo biểu đồ</a></li>
+                                  <li><a data-toggle="pill" href="#menu2">Thống kê theo bảng</a></li>
+                                </ul>
+
+                                <div class="tab-content">
+                                  <div id="menu1" class="tab-pane fade in active">
+                                    <div class="box-chart-bar">
+                                        <h6>Đơn vị: Chiếc</h6>
+                                        <canvas id="chartjs-bar"></canvas>
+                                    </div>
+
+                                    <div class="box-chart-pie">
+                                        <div class="chart-pie-ticket">
+                                            <h5>BIỂU ĐỒ VÉ</h5>
+                                            <canvas id="chartjs-pie-ticket" ></canvas>
+                                        </div>
+                                        <div class="chart-pie-list">
+                                            <h5>BIỂU ĐỒ DOANH THU</h5>
+                                            <canvas id="chartjs-pie-list" ></canvas>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="box-table-list-birthday">
+                                        <table border="1">
+                                            <tr>
+                                                <td colspan="5">
+                                                    <div class="box-header-table">
+                                                        <i class="fas fa-birthday-cake"></i>
+                                                        <h5>Danh sách sinh nhật</h5>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="row-info-table">
+                                                <td><h6 class="txt_center">STT</h6></td>
+                                                <td><h6 class="txt_left">Họ tên</h6></td>
+                                                <td><h6 class="txt_center">Điện thoại</h6></td>
+                                                <td><h6 class="txt_center">Ngày sinh</h6></td>
+                                                <td><h6 class="txt_left">Ngày còn lại</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">1</h6></td>
+                                                <td><h6 class="txt_left">Lê Tuấn Linh</h6></td>
+                                                <td><h6 class="txt_center">0704174555</h6></td>
+                                                <td><h6 class="txt_center">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">1</h6></td>
+                                                <td><h6 class="txt_left">Lê Tuấn Linh</h6></td>
+                                                <td><h6 class="txt_center">0704174555</h6></td>
+                                                <td><h6 class="txt_center">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">2</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">1</h6></td>
+                                                <td><h6 class="txt_left">Lê Tuấn Linh</h6></td>
+                                                <td><h6 class="txt_center">0704174555</h6></td>
+                                                <td><h6 class="txt_center">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">1</h6></td>
+                                                <td><h6 class="txt_left">Lê Tuấn Linh</h6></td>
+                                                <td><h6 class="txt_center">0704174555</h6></td>
+                                                <td><h6 class="txt_center">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">2</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center"></h6></td>
+                                                <td><h6 class="txt_left"></h6></td>
+                                                <td><h6 class="txt_center"></h6></td>
+                                                <td><h6 class="txt_center"></h6></td>
+                                                <td><h6 class="txt_left"></h6></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class="box-table-list-notification-employee">
+                                        <table border="1">
+                                            <tr>
+                                                <td colspan="6">
+                                                    <div class="box-header-table">
+                                                        <i class="fas fa-user"></i>
+                                                        <h5>Nhân viên sắp hết hạn bằng lái</h5>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="row-info-table">
+                                                <td><h6 class="txt_center">STT</h6></td>
+                                                <td><h6 class="txt_left">Họ tên</h6></td>
+                                                <td><h6 class="txt_center">Loại bằng</h6></td>
+                                                <td><h6 class="txt_center">Điện thoại</h6></td>
+                                                <td><h6 class="txt_center">Hết hạn</h6></td>
+                                                <td><h6 class="txt_left">Ngày còn lại</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">1</h6></td>
+                                                <td><h6 class="txt_left">Lê Tuấn Linh</h6></td>
+                                                <td><h6 class="txt_center">B</h6></td>
+                                                <td><h6 class="txt_center">0704174555</h6></td>
+                                                <td><h6 class="txt_center">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">1</h6></td>
+                                                <td><h6 class="txt_left">Lê Tuấn Linh</h6></td>
+                                                <td><h6 class="txt_center">C</h6></td>
+                                                <td><h6 class="txt_center">0704174555</h6></td>
+                                                <td><h6 class="txt_center">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">1</h6></td>
+                                                <td><h6 class="txt_left">Lê Tuấn Linh</h6></td>
+                                                <td><h6 class="txt_center">D</h6></td>
+                                                <td><h6 class="txt_center">0704174555</h6></td>
+                                                <td><h6 class="txt_center">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">1</h6></td>
+                                                <td><h6 class="txt_left">Lê Tuấn Linh</h6></td>
+                                                <td><h6 class="txt_center">E</h6></td>
+                                                <td><h6 class="txt_center">0704174555</h6></td>
+                                                <td><h6 class="txt_center">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center"></h6></td>
+                                                <td><h6 class="txt_left"></h6></td>
+                                                <td><h6 class="txt_center"></h6></td>
+                                                <td><h6 class="txt_center"></h6></td>
+                                                <td><h6 class="txt_center"></h6></td>
+                                                <td><h6 class="txt_left"></h6></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class="box-table-list-notification-driver">
+                                        <table border="1">
+                                            <tr>
+                                                <td colspan="4">
+                                                    <div class="box-header-table">
+                                                        <i class="fas fa-car"></i>
+                                                        <h5>Xe sắp hết hạn đăng</h5>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="row-info-table">
+                                                <td><h6 class="txt_center">STT</h6></td>
+                                                <td><h6 class="txt_left">Biển số xe</h6></td>
+                                                <td><h6 class="txt_left">Hết hạn</h6></td>
+                                                <td><h6 class="txt_left">Ngày còn lại</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">1</h6></td>
+                                                <td><h6 class="txt_left">17B - 124.68</h6></td>
+                                                <td><h6 class="txt_left">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">2</h6></td>
+                                                <td><h6 class="txt_left">17B - 124.68</h6></td>
+                                                <td><h6 class="txt_left">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left error">Quá hạn</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">3</h6></td>
+                                                <td><h6 class="txt_left">17B - 124.68</h6></td>
+                                                <td><h6 class="txt_left">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">4</h6></td>
+                                                <td><h6 class="txt_left">17B - 124.68</h6></td>
+                                                <td><h6 class="txt_left">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">5</h6></td>
+                                                <td><h6 class="txt_left">17B - 124.68</h6></td>
+                                                <td><h6 class="txt_left">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">6</h6></td>
+                                                <td><h6 class="txt_left">17B - 124.68</h6></td>
+                                                <td><h6 class="txt_left">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left error">Quá hạn</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">7</h6></td>
+                                                <td><h6 class="txt_left">17B - 124.68</h6></td>
+                                                <td><h6 class="txt_left">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">8</h6></td>
+                                                <td><h6 class="txt_left">17B - 124.68</h6></td>
+                                                <td><h6 class="txt_left">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">9</h6></td>
+                                                <td><h6 class="txt_left">17B - 124.68</h6></td>
+                                                <td><h6 class="txt_left">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                            <tr class="row-content-table">
+                                                <td><h6 class="txt_center">10</h6></td>
+                                                <td><h6 class="txt_left">17B - 124.68</h6></td>
+                                                <td><h6 class="txt_left">01/02/1992</h6></td>
+                                                <td><h6 class="txt_left">1</h6></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                            <div class="box-news-footer">
+                                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 news-company">
+                                                    <div class="box-news-left">
+                                                        <h5>TIN TỨC TỪ AN VUI</h5>
+                                                        <div class="box-wrap-news-left">
+                                                            <div class="item-news-left">
+                                                                <a href=""><img src="img/pic_news_1.png"></a>
+                                                                <div class="content-news-item">
+                                                                    <a href="">VINACAPITAL VENTURES ĐẦU TƯ CHO AN VUI</a>
+                                                                    <h6>Để giúp các công ty vận tải hành khách đường bộ cạnh tranh hiệu quả hơn, ...</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item-news-left">
+                                                                <a href=""><img src="img/pic_news_2.png"></a>
+                                                                <div class="content-news-item">
+                                                                    <a href="">VINACAPITAL VENTURES ĐẦU TƯ CHO AN VUI</a>
+                                                                    <h6>Để giúp các công ty vận tải hành khách đường bộ cạnh tranh hiệu quả hơn, ...</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item-news-left">
+                                                                <a href=""><img src="img/pic_news_3.png"></a>
+                                                                <div class="content-news-item">
+                                                                    <a href="">VINACAPITAL VENTURES ĐẦU TƯ CHO AN VUI</a>
+                                                                    <h6>Để giúp các công ty vận tải hành khách đường bộ cạnh tranh hiệu quả hơn, ...</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item-news-left">
+                                                                <a href=""><img src="img/pic_news_4.png"></a>
+                                                                <div class="content-news-item">
+                                                                    <a href="">VINACAPITAL VENTURES ĐẦU TƯ CHO AN VUI</a>
+                                                                    <h6>Để giúp các công ty vận tải hành khách đường bộ cạnh tranh hiệu quả hơn, ...</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item-news-left">
+                                                                <a href=""><img src="img/pic_news_5.png"></a>
+                                                                <div class="content-news-item">
+                                                                    <a href="">VINACAPITAL VENTURES ĐẦU TƯ CHO AN VUI</a>
+                                                                    <h6>Để giúp các công ty vận tải hành khách đường bộ cạnh tranh hiệu quả hơn, ...</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 news-driver">
+                                                    <div class="box-news-right">
+                                                        <h5>TIN TỨC TỪ NHÀ XE</h5>
+                                                        <div class="box-wrap-news-right">
+                                                            <div class="item-news-right">
+                                                                <a href=""><img src="img/pic_news_6.png"></a>
+                                                                <div class="content-news-item">
+                                                                    <a href="">VINACAPITAL VENTURES ĐẦU TƯ CHO AN VUI</a>
+                                                                    <h6>Để giúp các công ty vận tải hành khách đường bộ cạnh tranh hiệu quả hơn, ...</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item-news-right">
+                                                                <a href=""><img src="img/pic_news_7.png"></a>
+                                                                <div class="content-news-item">
+                                                                    <a href="">VINACAPITAL VENTURES ĐẦU TƯ CHO AN VUI</a>
+                                                                    <h6>Để giúp các công ty vận tải hành khách đường bộ cạnh tranh hiệu quả hơn, ...</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item-news-right">
+                                                                <a href=""><img src="img/pic_news_8.png"></a>
+                                                                <div class="content-news-item">
+                                                                    <a href="">VINACAPITAL VENTURES ĐẦU TƯ CHO AN VUI</a>
+                                                                    <h6>Để giúp các công ty vận tải hành khách đường bộ cạnh tranh hiệu quả hơn, ...</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item-news-right">
+                                                                <a href=""><img src="img/pic_news_9.png"></a>
+                                                                <div class="content-news-item">
+                                                                    <a href="">VINACAPITAL VENTURES ĐẦU TƯ CHO AN VUI</a>
+                                                                    <h6>Để giúp các công ty vận tải hành khách đường bộ cạnh tranh hiệu quả hơn, ...</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item-news-right">
+                                                                <a href=""><img src="img/pic_news_10.png"></a>
+                                                                <div class="content-news-item">
+                                                                    <a href="">VINACAPITAL VENTURES ĐẦU TƯ CHO AN VUI</a>
+                                                                    <h6>Để giúp các công ty vận tải hành khách đường bộ cạnh tranh hiệu quả hơn, ...</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                  </div>
+                                  <div id="menu2" class="tab-pane fade">
+                                    ...
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script type="text/javascript" src="plugins/pushy.min.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="plugins/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/js/select2.min.js"></script>
+    <script type="text/javascript">
+
+      $(document).ready(function() {
+        
+        $('.dropdown-lang').select2();
+
+      });
+    </script>
+    <script>
+        new WOW().init();
+    </script>
+
+    </body>
+</html>
